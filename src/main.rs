@@ -10,6 +10,8 @@ mod pr8;
 mod pr9;
 mod pr10;
 mod pr11;
+mod pr12;
+mod pr13;
 
 fn main() {
     println!("Hello, world!");

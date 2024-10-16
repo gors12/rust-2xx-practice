@@ -24,6 +24,7 @@ fn min_adjacent_sum(data: &[i32]) -> Option<(i32, usize, usize)> {
     Some((min_sum, indices.0, indices.1))
 }
 
+
 fn print_data(data: &[i32]) {
     println!("indexes: {}", (0..data.len()).map(|i| format!("{}.", i)).collect::<String>());
     println!("data:  {:?}", data);
